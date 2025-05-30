@@ -1,0 +1,136 @@
+*{
+    Margin:0;
+    padding: 0;/
+}
+
+body {
+    font-family: cursive;
+   font-weight: bolder;
+    margin:0;
+    padding:0;
+    background-color: beige;
+    
+}
+
+header{
+    background-color: #FAA0BF;
+    color: aliceblue;
+    padding: 10px; 
+position: relative;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+box-shadow: 0.5px 0.5x #ffffff;
+}
+
+nav ul{
+    list-style:none; 
+    padding: 0;
+    margin:0;
+    display: flex;  
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+nav ul li{
+    padding: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #734B36;
+    font-size: 18px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    transform: scale(110%);
+    color: #FAA0BF; /* opcional: muda pra rosinha no hover */
+}
+
+section{
+    color:#734B36;
+    
+
+}
+
+/* Layout Principal*/
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.conteudo{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5E4DC;
+    flex-wrap:wrap;
+    padding: 20px;
+    margin-right: 100px;
+    margin-left: 230px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0,0,0.1);
+    height: 100%;
+    
+}
+.conteudo2{
+    flex: 2;
+    display: flex;
+    background-color: #F5E4DC;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-right: 100px;
+    margin-left: 230px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0,0,0.1);
+    height: 100%;
+    
+}
+
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 180px;  /* Adjust width as needed */
+    height: 100vh;
+    background-color: #FAA0BF;
+    padding: 20px;
+    overflow-y: auto;
+    z-index: 500;
+    margin-top: 84px;
+    color: aliceblue;
+    
+} 
+
+.footer{
+        background-color: aliceblue;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        
+}
+.logo-gif {
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    width: 70px;
+    height: 80px;
+    z-index: 110009; /* Fica sobre o header e os elementos */
+    
+    
+}
+
